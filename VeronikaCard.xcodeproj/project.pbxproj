@@ -11,6 +11,9 @@
 		1146CE1C260901D70079499F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1146CE1B260901D70079499F /* ContentView.swift */; };
 		1146CE1E260901D90079499F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1146CE1D260901D90079499F /* Assets.xcassets */; };
 		1146CE21260901D90079499F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1146CE20260901D90079499F /* Preview Assets.xcassets */; };
+		1146CE2C26091F210079499F /* NanumGothicCoding-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1146CE2A26091F210079499F /* NanumGothicCoding-Regular.ttf */; };
+		1146CE2D26091F210079499F /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1146CE2B26091F210079499F /* NanumGothicCoding-Bold.ttf */; };
+		1146CE30260920FB0079499F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1146CE2F260920FB0079499F /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		1146CE1D260901D90079499F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1146CE20260901D90079499F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1146CE22260901D90079499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1146CE2A26091F210079499F /* NanumGothicCoding-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		1146CE2B26091F210079499F /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		1146CE2F260920FB0079499F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 		1146CE18260901D70079499F /* VeronikaCard */ = {
 			isa = PBXGroup;
 			children = (
+				1146CE2926091EE80079499F /* Fonts */,
 				1146CE19260901D70079499F /* VeronikaCardApp.swift */,
 				1146CE1B260901D70079499F /* ContentView.swift */,
 				1146CE1D260901D90079499F /* Assets.xcassets */,
@@ -67,6 +74,16 @@
 				1146CE20260901D90079499F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1146CE2926091EE80079499F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1146CE2B26091F210079499F /* NanumGothicCoding-Bold.ttf */,
+				1146CE2A26091F210079499F /* NanumGothicCoding-Regular.ttf */,
+				1146CE2F260920FB0079499F /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1146CE21260901D90079499F /* Preview Assets.xcassets in Resources */,
+				1146CE2D26091F210079499F /* NanumGothicCoding-Bold.ttf in Resources */,
+				1146CE2C26091F210079499F /* NanumGothicCoding-Regular.ttf in Resources */,
 				1146CE1E260901D90079499F /* Assets.xcassets in Resources */,
+				1146CE30260920FB0079499F /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
