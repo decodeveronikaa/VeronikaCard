@@ -28,18 +28,11 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 20))
                 Divider()
-                HStack {
+                
+               
                     
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(Color.white)
-                        .frame(height: 30)
-                        .overlay(HStack {
-                            Image(systemName: "phone.fill")
-                                .foregroundColor(.green)
-                            Text("+971586000000")
-                            
-                        })
-                        .padding(.all)
+                    InfoView(text: "+9715864517000", imageName: "pone.fill")
+                InfoView(text: "veronica.mkv11@gmail.com", imageName: "envelope.fill")
                 }
                 
                 
@@ -47,9 +40,11 @@ struct ContentView: View {
             
         }
     }
-}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().previewDevice("iPhone 11 Pro")
     }
 }
+
+
